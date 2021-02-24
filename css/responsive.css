@@ -1,0 +1,109 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .header_part .header_content h6 {
+        font-size: 13px;
+    }
+    .header_part .header_icon ul li a {
+        padding: 10px 7px;
+    }
+    .menu_part .nav-item .nav-link {
+        padding: 5px 7.5px;
+        text-align: center;
+    }
+    .banner_content {
+        padding: 0px 0px;
+    }
+    .banner_content h1 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .banner_content h3 {
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    .banner_content p {
+        display: none;
+    }
+    .banner_content a {
+        font-size: 13px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+    #banner_part .carousel-indicators {
+        bottom: 2px;
+    }
+    #banner_part .carousel-indicators li {
+        width: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner_content {
+        padding: 0px 0px;
+    }
+    .banner_content h1 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .banner_content h3 {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .banner_content p {
+        padding-bottom: 15px;
+    }
+    #banner_part .carousel-indicators {
+        bottom: 5px;
+    }
+    #banner_part .carousel-indicators li {
+        width: 15px;
+    }
+    #banner_part .carousel-control-next,
+    #banner_part .carousel-control-prev {
+        width: 10%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_content {
+        padding: 10px 0px;
+    }
+    #banner_part .carousel-indicators {
+        bottom: 10px;
+    }
+    #banner_part .carousel-indicators li {
+        width: 15px;
+    }
+    #banner_part .carousel-control-next,
+    #banner_part .carousel-control-prev {
+        width: 10%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_content {
+        padding: 50px 0px;
+    }
+    #banner_part .carousel-indicators {
+        bottom: 15px;
+    }
+    #banner_part .carousel-control-next,
+    #banner_part .carousel-control-prev {
+        width: 10%;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
